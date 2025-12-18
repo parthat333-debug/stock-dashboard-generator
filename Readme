@@ -1,0 +1,14 @@
+# Stock Dashboard Generator (Sample)
+
+Generic Python script to:
+- fetch daily OHLCV market data (yfinance)
+- compute common indicators (RSI, MACD, ATR, SMAs/EMAs)
+- export per-ticker CSV + combined CSV + an Excel dashboard
+
+This is an educational/demo project. It is NOT financial advice.
+
+## Install
+pip install -r requirements.txt
+
+## Run
+python stock_dashboard.py --tickers AAPL,MSFT,RELIANCE.NS --start 2022-01-01 --end 2025-01-01 --auto-adjust --out-dir output
